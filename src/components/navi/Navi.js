@@ -25,7 +25,7 @@ const Navi = (props) => {
           <Nav className="mr-auto" navbar>
             
             <NavItem>
-              <NavLink href="https://github.com/oguzkose/redux-northwindShop">
+              <NavLink href="https://github.com/oguzkose/react-redux-northwindShop">
               Source Code<i class="fab fa-github"></i> 
               
               </NavLink>
