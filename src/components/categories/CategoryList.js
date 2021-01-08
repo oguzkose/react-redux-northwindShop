@@ -8,6 +8,7 @@ import * as productActions from "../../redux/actions/productActions";
 class CategoryList extends Component {
   componentDidMount() {
     this.props.actions.getCategories();
+    
   }
   selectCategory = (category) => {
     this.props.actions.changeCategory(category);
